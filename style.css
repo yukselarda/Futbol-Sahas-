@@ -1,0 +1,185 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#green {
+    width: 95%;
+    padding: 3rem 1rem 3rem 1rem;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    height: 86vh;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.saha {
+    width: 95%;
+    background: green;
+    height: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.bolge {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+}
+
+.bolge_bir {
+    align-items: center;
+}
+
+.ceza_sahasi {
+    width: 40%;
+    height: 60%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ceza_yayi {
+    width: 10%;
+    height: 30%;
+    border: 2px solid white;
+    border-radius: 0% 100% 100% 0%;
+}
+
+.alti_pas {
+    width: 40%;
+    height: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.kale {
+    width: 60%;
+    height: 60%;
+    border: 2px solid white;
+    position: relative;
+    left: -62%;
+    z-index: 9;
+}
+
+.penalti {
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border-radius: 100%;
+    margin-right: 25%;
+}
+
+.penalti_iki{
+    margin-left: 25%;
+}
+
+.bolge_iki {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.orta_cizgi {
+    width: 3px;
+    height: 100%;
+    background: white;
+}
+
+.baslama_yeri {
+    width: 20%;
+    height: 40%;
+    border-radius: 100%;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.baslama_cizgi {
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.bolge_uc {
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#futbol_topu {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 9999999;
+}
+
+.skor {
+    display: flex;
+    background-color: darkslategray;
+    border: 3px solid peru;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 10rem;
+}
+
+.takim {
+    border: 3px solid peru;
+    width: 10%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: darkblue;
+    flex-direction: column;
+}
+
+.alan_uc {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.kale_iki {
+    position: relative;
+    left: 100%;
+}
+
+.sayac {
+    display: flex;
+    background-color: darkslategray;
+    border: 3px solid peru;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 10%;
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9999999999999999999999999999999;
+}
+.swal2-container {
+    z-index: 9999999999999999999999999999999999999999999 !important;
+}
+
+.none{
+    display: none;
+}
